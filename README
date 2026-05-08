@@ -1,244 +1,89 @@
 # 🛒 Zepto E-commerce SQL Data Analysis Project
 
-
-
 This project is a real-world SQL Data Analyst portfolio project built using a Zepto e-commerce inventory dataset.
-
 The goal of this project is to simulate how data analysts clean, explore, and analyze business data using SQL.
 
-
-
----
-
-
-
 # 📌 Project Objectives
-
-
-
 ✔ Perform Data Exploration (EDA)
-
 ✔ Clean messy real-world data
-
 ✔ Analyze pricing, discounts, and inventory
-
 ✔ Generate business insights using SQL queries
 
-
-
 This project is ideal for:
-
-
-
 * 📊 Data Analyst Aspirants
-
 * 📚 SQL Learners
-
 * 💼 Interview Preparation
-
 * 🛍 E-commerce/Retail Analytics Practice
-
-
-
----
-
-
-
 # 📁 Dataset Information
-
-
-
 The dataset was sourced from Kaggle and contains product inventory data scraped from Zepto.
-
-
-
 ### Columns Included:
-
-
-
 * `sku_id` → Unique product ID
-
 * `name` → Product name
-
 * `category` → Product category
-
 * `mrp` → Original product price
-
 * `discountPercent` → Discount percentage
-
 * `discountedSellingPrice` → Final selling price
-
 * `availableQuantity` → Stock quantity available
-
 * `weightInGms` → Product weight
-
 * `outOfStock` → Stock availability status
-
 * `quantity` → Units per package
 
-
-
----
-
-
-
 # 🔧 Project Workflow
-
-
-
 ## 1️⃣ Database & Table Creation
-
-
-
 Created SQL table using PostgreSQL with proper data types.
 
-
-
 ## 2️⃣ Data Import
-
-
-
 Imported CSV dataset into PostgreSQL using pgAdmin and handled UTF-8 encoding issues.
-
-
-
 ## 3️⃣ Data Exploration
 
-
-
 Performed:
-
-
-
 * Record counting
-
 * Null value checks
-
 * Category analysis
-
 * Stock availability analysis
-
 * Duplicate product checks
 
-
-
 ## 4️⃣ Data Cleaning
-
-
-
 * Removed invalid price records
-
 * Converted prices from paise to rupees
 
-
-
 ## 5️⃣ Business Analysis
-
-
-
 Generated insights such as:
-
-
-
 * Top discounted products
-
 * Revenue by category
-
 * High MRP out-of-stock products
-
 * Best value products by weight
-
 * Inventory weight analysis
-
 * Average category discounts
 
-
-
----
-
-
-
 # 🛠️ SQL Concepts Used
-
-
-
 * SELECT Statements
-
-* WHERE Conditions
-
+* WHERE Condition
 * GROUP BY
-
 * ORDER BY
-
 * Aggregate Functions
-
 * CASE Statements
-
 * Data Cleaning Queries
 
-
-
----
-
-
-
 # 🚀 How to Run
-
-
-
-```sql
-
+sql
 git clone https://github.com/your-username/your-repository-name.git
-
-```
-
-
-
 1. Open PostgreSQL / pgAdmin
-
 2. Create a database
-
 3. Run the SQL file
-
 4. Import the dataset CSV
-
 5. Execute queries for analysis
 
-
-
----
-
-
-
 # 💻 Tech Stack
-
-
-
 * SQL
-
 * PostgreSQL
-
 * pgAdmin
 
-
-
----
-
-
-
 # 📊 Key Learning Outcomes
-
-
-
 ✔ Real-world SQL query practice
-
 ✔ Data cleaning and transformation
-
 ✔ Business-focused analytics
-
 ✔ E-commerce inventory analysis
-
-
 
 ⭐ If you found this project useful, feel free to star the repository and connect with me on LinkedIn.
 
